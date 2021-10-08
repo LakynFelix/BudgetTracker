@@ -10,7 +10,7 @@ request.onsuccess = function (event) {
   db = event.target.result;
 
   if (navigator.onLine) {
-    checkDatabase();
+   uploadRecords();
   }
 };
 
@@ -28,12 +28,12 @@ function uploadRecords() {
   const transaction = db.transaction(["budgettracker"], "readwrite");
   const store = transaction.objectStore("budgettracker");
   const getAll = store.getAll();
-
+ 
   getAll.onsuccess = function () {
-    if (getAll.results.length > 0) {
+    if (getAll.result.length > 0) {
       fetch("/api/transaction/bulk", {
         method: "POST",
-        body: JSON.stringify(getAll.results),
+        body: JSON.stringify(getAll.result),
         headers: {
           Accept: "application/json, text/plain, */*",
           "Content-Type": "application/json",
@@ -55,4 +55,4 @@ function uploadRecords() {
   };
 }
 
-Wwindows.addEventListener("Online", uploadRecords);
+window.addEventListener("online", uploadRecords);
