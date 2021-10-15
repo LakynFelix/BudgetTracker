@@ -21,7 +21,7 @@ Created a budget tracker application to allow for offline access and functionali
 ## Email: Lakynmphotography@hotmail.com 
 
 ## Preview of Project:
-![image](https://user-images.githubusercontent.com/84104126/136635072-cca09436-94c6-4f22-86fb-c5b47073ef7e.png)
+![image](https://user-images.githubusercontent.com/84104126/137534087-95857a73-072b-4728-bff3-6e92ca15aed1.png)
 
 ## License:  
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
