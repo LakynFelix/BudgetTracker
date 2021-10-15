@@ -28,9 +28,5 @@
     "express": "^4.17.1",
     "lite-server": "^2.6.1",
     "mongoose": "^6.0.11"
-  },
-  "devDependencies": {
-    "webpack-bundle-analyzer": "^4.4.2",
-    "webpack-dev-server": "^4.3.1"
   }
 }
