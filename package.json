@@ -20,7 +20,10 @@
   },
   "homepage": "https://github.com/LakynFelix/BudgetTracker#readme",
   "dependencies": {
-    "lite-server": "^2.6.1"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.0.11"
   },
   "devDependencies": {
     "webpack-bundle-analyzer": "^4.4.2",
